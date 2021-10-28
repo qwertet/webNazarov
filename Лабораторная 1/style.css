@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  height: 80px;
+  background-color: white;
+  display: flex;
+  padding-left: 60px;
+  padding-right: 60px;
+  box-shadow: 0 4px 56px rgb(0 0 0 / 12%);
+}
+
+.menu-list a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.menu-list a:hover {
+  color: #1355cd;
+  transition: color 300ms ease;
+}
+
+.menu-list a:not(:hover) {
+  transition: color 300ms ease;
+  color: black;
+}
+
+.menu-list {
+  display: inline-flex;
+  align-items: center;
+
+
+}
+
+.gap {
+  margin-left: 80px;
+}
+
+main {
+  display: flex;
+  height: 600px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+
+
+.content {
+padding: 20px 0px 0px 20px;
+width: 50%;
+}
+
+.content img {
+  width:  100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+}
+.logo img {
+  width: 100px;
+}
